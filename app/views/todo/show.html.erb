@@ -4,8 +4,8 @@
 </h1>
 <h3>Todo #<%= params[:id] %></h3>
 <div class="card">
-  <input type="checkbox" name=""/><h2><%= @todo_description %></h2>
-<span class="pomodoro-estimate large-pomodoro-estimate"><%= @todo_pomodoro_estimate %> Pomodoros</span>
+  <input type="checkbox" name=""/><h2><%= @todo.description %></h2>
+<span class="pomodoro-estimate large-pomodoro-estimate"><%= @todo.pomodoro_estimate %> Pomodoros</span>
 <a href="show" class="button" id="edit-todo-button">Edit</a>
   <a href="show" class="button" id="delete-todo-button">Delete</a>
   <a href="/todo/show" class="simple-link">Go back...</a>
